@@ -1,0 +1,6 @@
+framework module AllUniteSdk {
+  umbrella header "AllUniteSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

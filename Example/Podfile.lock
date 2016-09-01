@@ -1,0 +1,22 @@
+PODS:
+  - AllUniteSdk (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.9.3)
+
+DEPENDENCIES:
+  - AllUniteSdk (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  AllUniteSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AllUniteSdk: 72046369cfe9071f13f0babfbbb9ace3e3915e34
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
+
+PODFILE CHECKSUM: 3e8f97aa27f75e3c4c11507be52be7cd7734f6c6
+
+COCOAPODS: 1.0.1
