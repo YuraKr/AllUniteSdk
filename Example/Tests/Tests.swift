@@ -2,7 +2,6 @@
 
 import Quick
 import Nimble
-import AllUniteSdk
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
