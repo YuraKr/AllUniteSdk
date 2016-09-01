@@ -1,9 +1,9 @@
 {
   "name": "AllUniteSdk",
   "version": "0.1.0",
-  "summary": "A short description of AllUniteSdk.",
+  "summary": "AllUniteSdk",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AllUniteSdk",
+  "homepage": "https://github.com/YuraKr/AllUniteSdk.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Yura krohmal": "yury.krohmal@ardas.dp.ua"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AllUniteSdk.git",
+    "git": "https://github.com/YuraKr/AllUniteSdk.git",
     "tag": "0.1.0"
   },
   "platforms": {
