@@ -8,10 +8,6 @@ class AllUniteSdk {
     var accountId:String;
     var accountKey:String;
     
-    static func initalize(accountId:String, accountKey:String) -> AllUniteSdk {
-        return AllUniteSdk(accountId: accountId, accountKey: accountKey);
-    }
-    
     init(accountId:String, accountKey:String){
         self.accountId = accountId;
         self.accountKey = accountKey;

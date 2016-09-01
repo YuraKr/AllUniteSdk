@@ -8,7 +8,6 @@ class AllUniteSdkTests: QuickSpec {
     override func spec() {
         
         //var sdk:AllUniteSdk
-        
         describe("AllUniteSdk") {
             it("success test") {
                 expect(2) == 2

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AllUniteSdk pod for mobile developpers.
                        DESC
 
   s.homepage         = 'https://github.com/YuraKr/AllUniteSdk.git'
