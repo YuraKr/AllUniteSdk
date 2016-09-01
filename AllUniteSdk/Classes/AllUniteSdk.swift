@@ -1,5 +1,5 @@
 
-//import Alamofire
+import Alamofire
 
 public class AllUniteSdk {
     
@@ -24,18 +24,29 @@ public class AllUniteSdk {
     }
     
     
-    public func track(actionCategory:String, actionId:String) {
-//        Alamofire.request(.GET, "https://httpbin.org/get", parameters: ["foo": "bar"])
-//            .responseJSON { response in
+    public func track(actionCategory:String,
+                      actionId:String,
+                      completionHandler: NSError? -> Void) {
+        Alamofire.request(.GET, "https://httpbin.org/get", parameters: nil, encoding: .URL)
+            .validate()
+            .responseJSON { response in
+                
+                if let error = response.result.error {
+                    completionHandler(error);
+                    return;
+                }
 //                print(response.request)  // original URL request
 //                print(response.response) // URL response
 //                print(response.data)     // server data
 //                print(response.result)   // result of response serialization
-//                
-//                if let JSON = response.result.value {
-//                    print("JSON: \(JSON)")
-//                }
-//        }
+                
+                
+                
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+                completionHandler(nil);
+        }
     }
     
     public func bindDevice(deepLink:String) {

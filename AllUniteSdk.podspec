@@ -37,5 +37,6 @@ AllUniteSdk pod for mobile developpers.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  # s.dependency 'Alamofire', '~> 3.4'
+  s.dependency 'Alamofire', '~> 3.4'
+  s.dependency 'AlamofireObjectMapper', '~> 3.0'
 end

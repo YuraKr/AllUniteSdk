@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AllUniteSdk/Classes/**/*"
+  "source_files": "AllUniteSdk/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.4"
+    ],
+    "AlamofireObjectMapper": [
+      "~> 3.0"
+    ]
+  }
 }

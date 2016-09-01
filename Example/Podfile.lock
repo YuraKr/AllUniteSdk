@@ -1,6 +1,13 @@
 PODS:
-  - AllUniteSdk (0.1.0)
+  - Alamofire (3.4.1)
+  - AlamofireObjectMapper (3.0.2):
+    - Alamofire (~> 3.2)
+    - ObjectMapper (~> 1.0)
+  - AllUniteSdk (0.1.0):
+    - Alamofire (~> 3.4)
+    - AlamofireObjectMapper (~> 3.0)
   - Nimble (3.2.0)
+  - ObjectMapper (1.4.0)
   - Quick (0.9.3)
 
 DEPENDENCIES:
@@ -13,8 +20,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AllUniteSdk: 6bd46e77047190f0e5d8b18a6aa59c75334509cb
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireObjectMapper: 70f97cbf45c01c48d26aa07a1a7059a60ed7411d
+  AllUniteSdk: 44fb1a2f7ce1463bd70bb5d58fdaedeb114d55aa
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  ObjectMapper: a07ad0462c5adf014adc0f89ef04c29b626e855e
   Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
 
 PODFILE CHECKSUM: 36382978bc12833a4f8bd217d3c22bbc8b3ab124
