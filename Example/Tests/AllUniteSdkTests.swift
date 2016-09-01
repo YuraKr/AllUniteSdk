@@ -7,11 +7,22 @@ import AllUniteSdk
 class AllUniteSdkTests: QuickSpec {
     override func spec() {
         
-        //var sdk:AllUniteSdk
+        var sdk:AllUniteSdk!
+        
         describe("AllUniteSdk") {
-            it("success test") {
-                expect(2) == 2
+            beforeEach {
+                sdk = AllUniteSdk(accountId: "id", accountKey: "key")
+            }
+            
+            it("should be initilized") {
+                expect(sdk).toNot(beIdenticalTo(nil))
+                
+                expect(sdk.allUniteId).to(equal("id"))
+                expect(sdk.allUniteKey).to(equal("key"))
             }
         }
+        
+        
+        
     }
 }

@@ -1,28 +1,38 @@
 
-class AllUniteSdk {
+import UIKit
+
+public class AllUniteSdk {
     
-    enum SocialNetwork {
+    public enum SocialNetwork {
         case Facebook
     }
     
-    var accountId:String;
-    var accountKey:String;
+    private var accountId:String
+    private var accountKey:String
+
+    public var allUniteId: String {
+        return accountId
+    }
     
-    init(accountId:String, accountKey:String){
+    public var allUniteKey: String {
+        return accountKey
+    }
+    
+    public init(accountId:String, accountKey:String){
         self.accountId = accountId;
         self.accountKey = accountKey;
     }
     
     
-    func track(actionCategory:String, actionId:String) {
+    public func track(actionCategory:String, actionId:String) {
         
     }
     
-    func bindDevice(deepLink:String) {
+    public func bindDevice(deepLink:String) {
         
     }
     
-    func bindFacebookProfile(socialNetwork:SocialNetwork, profileData: String, profileToken: String) {
+    public func bindFacebookProfile(socialNetwork:SocialNetwork, profileData: String, profileToken: String) {
         
     }
     
